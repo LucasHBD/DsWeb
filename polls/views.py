@@ -3,4 +3,4 @@ from django.http import HttpResponse
 
 # Create your views here.
 def index(request):
-    return HttpResponse("Bem Vindo à Aplicação de Enquete!")
+    return HttpResponse("DsWeb - 2024.1 - 20231014040004 - Lucas Henrique Barreto Demetrio")
