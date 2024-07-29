@@ -1,9 +1,14 @@
+{% load static %}
+
 <html>
     <head>
         <title>App Enquetes</title>
+        <link rel="stylesheet" type="text/css" href="{% static 'css/static.css' %}">
     </head>
     <body>
         <h1>Aplicação Enquetes - DsWeb 2024.1</h1>
+        <br>
+        <h2>Aluno: Lucas Henrique Barreto Demetrio - 3º Período</h2>
         {% if lista_enquetes %}
             <h3>Lista das Enquetes Cadastradas:</h3>
             <ul>

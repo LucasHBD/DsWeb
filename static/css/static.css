@@ -1,0 +1,14 @@
+li a{
+    color: white;
+}
+
+img{
+    display: flex;
+    width: auto;
+    height: auto;
+}
+
+body{
+    background-color: #42413f;
+    color: white;
+}
